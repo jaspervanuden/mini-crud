@@ -11,45 +11,98 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-    <link rel="css" href="style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-secondary">
-    <ul class="nav nav-pills bg-secondary">
+  <body style="background-color: #d4cec2">
+    <ul class="nav nav-pills" style="background-color: #95a78d">
       <li class="nav-item">
-        <a class="nav-link text-danger" href="index.html">Home</a>
+        <a class="nav-link text-light" href="index.html">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a
-          class="nav-link dropdown-toggle text-danger"
+          class="nav-link dropdown-toggle text-light"
           data-toggle="dropdown"
           href="#"
           role="button"
           aria-haspopup="true"
           aria-expanded="true"
-          >pizzamina</a
+          style="background-color: #95a78d"
+        >
+          pizzamina</a
         >
         <div class="dropdown-menu">
-          <a class="dropdown-item text-danger" href="menukaart.html"
-            >menukaart</a
-          >
-          <a class="dropdown-item text-danger" href="vestegingen.html"
+          <a class="dropdown-item text-dark" href="menukaart.html">menukaart</a>
+          <a class="dropdown-item text-dark" href="vestegingen.html"
             >vestegingen</a
           >
-          <a class="dropdown-item text-danger" href="overons.html">over ons</a>
+          <a class="dropdown-item text-dark" href="overons.html">over ons</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-danger" href="reserveren.html">reserveren</a>
+        <a class="nav-link text-light" href="reserveren.html">reserveren</a>
       </li>
     </ul>
 
-    <div class="container-xl">
-      <img
-        src="img/header.jpg"
-        class="img-fluid max-width: 100%"
-        alt="Responsive image"
-        style="width: 100%"
-      />
+    <div
+      class="container-xl"
+      style="
+        background: linear-gradient(
+            to top,
+            #d4cec2d3,
+            #95a78d88,
+            #afb79e80,
+            #95a78dbe
+          ),
+          url(img/header.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        padding: 10%;
+      "
+    >
+      <h1
+        style="
+          color: white;
+          justify-content: space-evenly;
+          text-align: center;
+          font-size: 80px;
+        "
+      >
+        Pizzamia
+      </h1>
+    </div>
+
+    <div
+      class="container float-left"
+      style="
+        background-color: #d4cec2;
+        background-size: cover;
+        background-position: center;
+        padding: 10%;
+      "
+    >
+      <h1>
+        welkom bij pizzamia, bla bla bla Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Molestiae nihil est rem nesciunt esse, debitis, itaque
+        ipsum, recusandae dolor enim odit ratione. Possimus amet maxime
+        reprehenderit fugit blanditiis inventore molestiae?
+      </h1>
+    </div>
+
+    <div
+      class="container float-right"
+      style="
+        background-color: #d4cec2;
+        background-size: cover;
+        background-position: center;
+        padding: 0%;
+      "
+    >
+      <h1>
+        welkom bij pizzamia, bla bla bla Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Molestiae nihil est rem nesciunt esse, debitis, itaque
+        ipsum, recusandae dolor enim odit ratione. Possimus amet maxime
+        reprehenderit fugit blanditiis inventore molestiae?
+      </h1>
     </div>
 
     <script
