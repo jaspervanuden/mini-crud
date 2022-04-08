@@ -16,7 +16,7 @@
   <body style="background-color: #d4cec2">
     <ul class="nav nav-pills" style="background-color: #95a78d">
       <li class="nav-item">
-        <a class="nav-link text-light" href="index.html">Home</a>
+        <a class="nav-link text-light" href="index.php">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a
@@ -31,15 +31,15 @@
           pizzamia jasper</a
         >
         <div class="dropdown-menu">
-          <a class="dropdown-item text-dark" href="menukaart.html">menukaart</a>
-          <a class="dropdown-item text-dark" href="vestegingen.html"
+          <a class="dropdown-item text-dark" href="menukaart.php">menukaart</a>
+          <a class="dropdown-item text-dark" href="vestegingen.php"
             >vestegingen</a
           >
-          <a class="dropdown-item text-dark" href="overons.html">over ons</a>
+          <a class="dropdown-item text-dark" href="overons.php">over ons</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="reserveren.html">reserveren</a>
+        <a class="nav-link text-light" href="reserveren.php">reserveren</a>
       </li>
     </ul>
 
