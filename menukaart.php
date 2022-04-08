@@ -67,20 +67,18 @@
           font-size: 80px;
         "
       >
-        Vestegingen
+        Menukaart
       </h1>
     </div>
-
-    <div class="container" style="padding: 10%">
-      <ul>
-        <li>ddskjhbds</li>
-        <li>ddskjhbds</li>
-        <li>ddskjhbds</li>
-        <li>ddskjhbds</li>
-        <li>ddskjhbds</li>
-        <li>ddskjhbds</li>
-        <li>ddskjhbds</li>
-      </ul>
+    <div class="container" style="padding: 5%">
+      <div class="card" style="width: 18rem; background-color: #95a78d">
+        <img src="..." class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">gerecht 1</h5>
+          <p class="card-text">beschrijving...</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
     </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -28,7 +28,7 @@
           aria-expanded="true"
           style="background-color: #95a78d"
         >
-          pizzamia jasper</a
+          pizzamia</a
         >
         <div class="dropdown-menu">
           <a class="dropdown-item text-dark" href="menukaart.html">menukaart</a>
@@ -67,44 +67,60 @@
           font-size: 80px;
         "
       >
-        Pizzamia
+        Vestegingen
       </h1>
     </div>
-
     <div
-      class="container float-left"
-      style="
-        background-color: #d4cec2;
-        background-size: cover;
-        background-position: center;
-        padding: 10%;
-      "
+      class="container-xl"
+      style="display: flex; justify-content: center; width: 100%; padding: 20px"
     >
-      <h1>
-        welkom bij pizzamia, bla bla bla Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Molestiae nihil est rem nesciunt esse, debitis, itaque
-        ipsum, recusandae dolor enim odit ratione. Possimus amet maxime
-        reprehenderit fugit blanditiis inventore molestiae?
-      </h1>
+      <div class="container">
+        <div class="mapouter">
+          <div class="gmap_canvas">
+            <iframe
+              width="600"
+              height="500"
+              id="gmap_canvas"
+              src="https://maps.google.com/maps?q=nijmegen%20pizza&t=&z=13&ie=UTF8&iwloc=&output=embed"
+              frameborder="0"
+              scrolling="no"
+              marginheight="0"
+              marginwidth="0"
+            ></iframe
+            ><a href="https://123movies-to.org"></a><br /><style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 500px;
+                width: 600px;
+              }</style
+            ><a href="https://www.embedgooglemap.net"
+              >add google map to website</a
+            ><style>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 500px;
+                width: 600px;
+              }
+            </style>
+          </div>
+        </div>
+      </div>
+      <div class="container fs-3">
+        <ul>
+          <li style="list-style-type: none">
+            Kelfkensbos 24, 6511 TB Nijmegen
+          </li>
+          <li>Sint Jacobslaan 402, 6533 VW Nijmegen</li>
+          <li>Daalseweg 248, 6521 GS Nijmegen</li>
+          <li>Graafseweg 27, 6512 BM Nijmegen</li>
+          <li>Eerste Walstraat 18, 6511 GG Nijmegen</li>
+          <li>Groenestraat 233, 6531 HJ Nijmegen</li>
+          <li>Sint Annastraat 45-A, 6524 EE Nijmegen</li>
+        </ul>
+      </div>
     </div>
-
-    <div
-      class="container float-right"
-      style="
-        background-color: #d4cec2;
-        background-size: cover;
-        background-position: center;
-        padding: 0%;
-      "
-    >
-      <h1>
-        welkom bij pizzamia, bla bla bla Lorem ipsum, dolor sit amet consectetur
-        adipisicing elit. Molestiae nihil est rem nesciunt esse, debitis, itaque
-        ipsum, recusandae dolor enim odit ratione. Possimus amet maxime
-        reprehenderit fugit blanditiis inventore molestiae?
-      </h1>
-    </div>
-
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
