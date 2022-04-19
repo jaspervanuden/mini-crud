@@ -1,3 +1,13 @@
+<?php include_once "connection.php";
+
+//dit stuk haalt de data op
+$sql = "SELECT * FROM menu";
+$stmt = $conn->prepare($sql);
+$stmt->execute();
+//haal alle data op en knal die in een variabele genaam results
+$results = $stmt->fetchAll();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -69,17 +79,24 @@
       >
         Menukaart
       </h1>
-    </div>
-    <div class="container" style="padding: 5%">
-      <div class="card" style="width: 18rem; background-color: #95a78d">
-        <img src="..." class="card-img-top" alt="..." />
+        </div>
+    <div class="container row justify-content-around" style="margin-bottom: 10px; padding: 10px;">
+    <?php
+    foreach($results as $res){
+      ?>
+      <div class="card" style="padding: 2%; width: 18rem; background-color: #95a78d">
+        <img src="img/<?php echo $res['img']?>" class="card-img-top"/>
         <div class="card-body">
-          <h5 class="card-title">gerecht 1</h5>
-          <p class="card-text">beschrijving...</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+         <h5 class="card-title"><?php echo $res['name'];?></h5>
+          <p class="card-text">prijs: <?php echo $res['price'];?></p>
+          <a href="#" class="btn btn-outline-light">toevoegen aan bestelling</a>
         </div>
       </div>
+      <?php
+    }
+    ?>
     </div>
+  </div>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
