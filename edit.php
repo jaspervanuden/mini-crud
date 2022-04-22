@@ -15,12 +15,14 @@ $data = $stmt->fetch();
 if(isset($_POST["toevoegen"])){
     $sql = "UPDATE menu SET
                 name = :name,
-                price = :price
+                price = :price,
+                img = :img
                 WHERE ID = :id
                 ";
         $stmt = $conn->prepare($sql);
         $stmt->bindParam(':name', $_POST['name']);
         $stmt->bindParam(':price', $_POST['price']);
+        $stmt->bindParam(':img', $_POST['img']);
         $stmt->bindParam(':id', $data['ID']);
         $stmt->execute();
         header("location: admin.php");
@@ -32,5 +34,6 @@ if(isset($_POST["toevoegen"])){
 <form action="" method="post"> 
     titel <input type="text" name="name" id="" value="<?php echo $data['name']?>"><br />
     prijs <input type="text" name="price" id="" value="<?php echo $data['price']?>"><br />
+    img <input type="text" name="img" id="" value="<?php echo $data['img']?>"><br />
     <input type="submit" value="toevoegen" name="toevoegen">
 </form>
