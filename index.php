@@ -81,7 +81,7 @@
           font-size: 80px;
         "
       >
-        Pizzamia
+        Pizzamia sven bokkerink was hier ;)
       </h1>
     </div>
     <div class="container max-width" style="padding: 5%">
