@@ -81,7 +81,7 @@
           font-size: 80px;
         "
       >
-        Pizzamia sven bokkerink was hier ;)
+        Pizzamia
       </h1>
     </div>
     <div class="container max-width" style="padding: 5%">
@@ -95,7 +95,7 @@
           vlees- en visgerechten, het is allemaal mogelijk bij pizzamia. U
           kunt tevens goed terecht met groot gezelschap. Om teleurstellingen te
           voorkomen vragen wij u in dat geval om tijdig te reserveren. Wij hopen
-          u graag te zien! Het pizzamia team.
+          u graag te zien! Het pizzamia team. 
         </h4>
       </div>
     </div>
