@@ -8,14 +8,13 @@
 }
 
 const loginFormElement = document.querySelector("#loginForm");
-
+console.log("kaas");
 loginFormElement.addEventListener("submit", (e) => {
   const usernameElement = document.querySelector("#username").value;
   const passwordElement = document.querySelector("#password").value;
   const errorElement = document.querySelector("#errormessage");
   const errorMessage = document.createElement("p");
-  errorMessage.innerHTML = "Niks ingevoerd";
-
+  errorMessage.innerHTML = " Niks ingevoerd";
   if (usernameElement == "" || passwordElement == "") {
     e.preventDefault();
     alert("Please voer iets in ofzo");

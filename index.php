@@ -28,7 +28,7 @@
           aria-expanded="true"
           style="background-color: #95a78d"
         >
-          pizzamia jasper</a
+          pizzamia</a
         >
         <div class="dropdown-menu">
           <a class="dropdown-item text-dark" href="menukaart.php">menukaart</a>

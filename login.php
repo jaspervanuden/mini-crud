@@ -56,7 +56,6 @@
         </button>
       </form>
     </ul>
-
     <div
       class="container-xl"
       style="
@@ -102,17 +101,19 @@ if(isset($_POST['username']) && isset($_POST['password'])){
     exit();
         
     } else {
-        echo "username niet gevonden";
+        echo "gebruikersnaam en of wachtwoord onjuist";
     }
 } 
 ?>
-    <div class="container max-width" style="padding: 5%">
+    <div class="container max-width" style="padding: 10%;
+">
       <div class="container">
-      <form id='loginForm' action="login.php" method="post">
+<form id='loginForm' action="login.php" method="post">
     <div id='errormessage'></div>
     username <input id='username' type="text" name="username" value="" /><br />
     password <input id='password' type="password" name="password" value=""><br />
-    <input type="submit" value="login"/>
+    <input type="submit" name="submit" value="login"/>
+
 </form>
       </div>
     </div>
@@ -141,6 +142,6 @@ if(isset($_POST['username']) && isset($_POST['password'])){
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <script scr='main.js'></script>
+    <script src='main.js'></script>
   </body>
 </html>

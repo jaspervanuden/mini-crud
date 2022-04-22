@@ -51,8 +51,21 @@ $results = $stmt->fetchAll();
       <li class="nav-item">
         <a class="nav-link text-light" href="reserveren.php">reserveren</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="login.php">admin login</a>
+      </li>
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
     </ul>
-
     <div
       class="container-xl"
       style="
@@ -80,11 +93,11 @@ $results = $stmt->fetchAll();
         Menukaart
       </h1>
         </div>
-    <div class="container row justify-content-around" style="margin-bottom: 10px; padding: 10px;">
+    <div class="container row justify-content-around" style="margin-bottom: 10px; padding: 10px; margin: 10%;">
     <?php
     foreach($results as $res){
       ?>
-      <div class="card" style="padding: 2%; width: 18rem; background-color: #95a78d">
+      <div class="card" style="margin: 2%; padding: 2%; width: 18rem; background-color: #95a78d">
         <img src="img/<?php echo $res['img']?>" class="card-img-top"/>
         <div class="card-body">
          <h5 class="card-title"><?php echo $res['name'];?></h5>
