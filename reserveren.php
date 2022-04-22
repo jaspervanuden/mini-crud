@@ -147,7 +147,16 @@
         <button type="submit" class="btn" style="background-color: #95a78d" >Reserveer</button>
       </form>
     </div>
-  
+    <footer class="footer" style="background-color: #95a78d">
+      <div class="container">
+        <span class="text-muted center">volg ons op de Socials: 
+          <a href="instagram.com">instagram</a>
+          <a href="snapchat.com">snapchat</a>
+          <a href="facebook.com">facebook</a>
+          <a href="twitter.com">twitter</a>
+        </span>
+      </div>
+    </footer>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
