@@ -16,7 +16,7 @@
   <body style="background-color: #d4cec2">
     <ul class="nav nav-pills" style="background-color: #95a78d">
       <li class="nav-item">
-        <a class="nav-link text-light" href="index.html">Home</a>
+        <a class="nav-link text-light" href="index.php">Home</a>
       </li>
       <li class="nav-item dropdown">
         <a
@@ -31,18 +31,31 @@
           pizzamia</a
         >
         <div class="dropdown-menu">
-          <a class="dropdown-item text-dark" href="menukaart.html">menukaart</a>
-          <a class="dropdown-item text-dark" href="vestegingen.html"
+          <a class="dropdown-item text-dark" href="menukaart.php">menukaart</a>
+          <a class="dropdown-item text-dark" href="vestegingen.php"
             >vestegingen</a
           >
-          <a class="dropdown-item text-dark" href="overons.html">over ons</a>
+          <a class="dropdown-item text-dark" href="overons.php">over ons</a>
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-light" href="reserveren.html">reserveren</a>
+        <a class="nav-link text-light" href="reserveren.php">reserveren</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="login.php">admin login</a>
+      </li>
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
     </ul>
-
     <div
       class="container-xl"
       style="

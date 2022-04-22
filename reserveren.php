@@ -83,6 +83,7 @@
         Reserveren
       </h1>
     </div>
+    <hr class="mx-5 mt-5">
     <div class="container">
       <form>
         <div class="form-row">
@@ -147,6 +148,7 @@
         <button type="submit" class="btn" style="background-color: #95a78d" >Reserveer</button>
       </form>
     </div>
+    <hr class="mx-5 mt-5">
     <footer class="footer" style="background-color: #95a78d">
       <div class="container">
         <span class="text-muted center">volg ons op de Socials: 
