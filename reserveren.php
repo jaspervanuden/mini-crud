@@ -149,7 +149,7 @@
     </div>
     <footer class="footer" style="background-color: #95a78d">
       <div class="container">
-        <span class="text-muted center">volg ons op de Socials:
+        <span class="text-muted center">volg ons op de Socials: 
           <a href="instagram.com">instagram</a>
           <a href="snapchat.com">snapchat</a>
           <a href="facebook.com">facebook</a>
