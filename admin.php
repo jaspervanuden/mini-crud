@@ -1,7 +1,7 @@
 <?php
 include_once "connection.php";
 if(isset($_SESSION['username'])){?>
-   <p><?php echo "welcome " . $_SESSION['username']; ?></p>
+   <p><?php echo "welcome " . $_SESSION['username']; ?> <a href="logout.php"> uitloggen</a></p>
    <?php
 }  else {
     header("location: login.php");
@@ -17,7 +17,7 @@ $result = $stmt->fetchAll();
 <table>
 
 <tr>
-    <th>naam</th>
+    <th>naam</th> 
     <th>prijs</th>
     <th>acties</th>
     <th>

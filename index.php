@@ -41,6 +41,20 @@
       <li class="nav-item">
         <a class="nav-link text-light" href="reserveren.php">reserveren</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="login.php">admin login</a>
+      </li>
+      <form class="form-inline my-2 my-lg-0">
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+          Search
+        </button>
+      </form>
     </ul>
 
     <div
@@ -70,19 +84,29 @@
         Pizzamia
       </h1>
     </div>
-    <div class="container max-width" style="padding: 10%">
+    <div class="container max-width" style="padding: 5%">
       <div class="container">
-        <h1>
-          welkom bij pizzamia, bla bla bla Lorem ipsum, dolor sit amet
-          consectetur adipisicing elit. Molestiae nihil est rem nesciunt esse,
-          debitis, itaque ipsum, recusandae dolor enim odit ratione. Possimus
-          amet maxime reprehenderit fugit blanditiis inventore molestiae?
-        </h1>
+        <h4>
+          Pizzamia is ruim 25 jaar een begrip in Nijmegen. Dit drukbezochte
+          restaurant biedt met hun snelle en vriendelijke service heerlijke
+          gerechten tegen hemelse prijzen. Op maandag, dinsdag en woensdag kunt
+          u kiezen uit een 3 gangenmenu voor maar e10,95. Of u nu even snel een
+          lekkere pizza of pasta wilt eten, of uitgebreid wilt tafelen met malse
+          vlees- en visgerechten, het is allemaal mogelijk bij pizzamia. U
+          kunt tevens goed terecht met groot gezelschap. Om teleurstellingen te
+          voorkomen vragen wij u in dat geval om tijdig te reserveren. Wij hopen
+          u graag te zien! Het pizzamia team.
+        </h4>
       </div>
     </div>
     <footer class="footer" style="background-color: #95a78d">
       <div class="container">
-        <span class="text-muted center">Place sticky footer content here.</span>
+        <span class="text-muted center">volg ons op de Socials:
+          <a href="instagram.com">instagram</a>
+          <a href="snapchat.com">snapchat</a>
+          <a href="facebook.com">facebook</a>
+          <a href="twitter.com">twitter</a>
+        </span>
       </div>
     </footer>
     <script
